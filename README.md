@@ -1,7 +1,6 @@
-# HandS Web Project
-## Frontend Approach
+# HandS Web Project Frontend Approach [![Build Status](https://travis-ci.org/HandSKoreaUniv/front.svg?branch=master)](https://travis-ci.org/HandSKoreaUniv/front)
 
-[![Build Status](https://travis-ci.org/HandSKoreaUniv/front.svg?branch=master)](https://travis-ci.org/HandSKoreaUniv/front)
+> HandS Web 2.0 project for providing Accounting features, Social Networking and Managing.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
