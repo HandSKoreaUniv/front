@@ -1,5 +1,6 @@
 import React from 'react';
 import Upper from './Upper';
+import SponsoredBy from './RightSide/Sponsor';
 import { Grid } from 'semantic-ui-react';
 
 class App extends React.Component {
@@ -9,7 +10,7 @@ class App extends React.Component {
       <header>
           <Upper/>
       </header>
-        <Grid>
+        <Grid padded>
         <Grid.Column width={4}>
 left placeholder
         </Grid.Column>
@@ -17,7 +18,7 @@ left placeholder
 center placeholder
         </Grid.Column>
         <Grid.Column width={4}>
-rightbar placeholder
+          <SponsoredBy />
         </Grid.Column>
       </Grid>
       </div>
