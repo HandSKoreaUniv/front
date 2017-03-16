@@ -1,6 +1,8 @@
 import React from 'react';
 import Upper from './Upper';
 import SponsoredBy from './RightSide/Sponsor';
+import LeftMenu from './LeftSide/LeftMenu';
+import ArticleView from './Center/ArticleView';
 import { Grid } from 'semantic-ui-react';
 
 class App extends React.Component {
@@ -12,10 +14,10 @@ class App extends React.Component {
       </header>
         <Grid padded>
         <Grid.Column width={4}>
-left placeholder
+          <LeftMenu />
         </Grid.Column>
         <Grid.Column width={8}>
-center placeholder
+          <ArticleView />
         </Grid.Column>
         <Grid.Column width={4}>
           <SponsoredBy />
