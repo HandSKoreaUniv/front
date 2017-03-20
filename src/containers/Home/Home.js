@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Row, Col, Icon } from 'react-materialize';
-import Navbar from './components/Navbar'
+import { Row, Col } from 'react-materialize';
+import Header from '../../components/Header/Header.js';
 
 export default class Home extends Component {
     render() {
         return (
             <div>
                 <Row>
-                <Navbar/>
+                <Header />
                 </Row>
                 <Row>
                 <Col s={3}>
