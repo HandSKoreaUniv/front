@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Grid, Row, Col} from 'react-bootstrap';
 import Header from './components/Header.js';
-
+import LeftMenu from './components/LeftMenu.js';
 class Home extends Component {
   render() {
     return (
@@ -11,9 +11,10 @@ class Home extends Component {
                 <Header />
             </Row>
             <Row>
-                <Col xs={12} md={3}>left placeholder</Col>
-                <Col xs={12} md={6}>center placeholder</Col>
-                <Col xs={12} md={3}>right placeholder</Col>
+                <Col xs={12} md={9}>
+                    <LeftMenu/>
+                </Col>
+                <Col xs={12} md={3}></Col>
             </Row>
         </Grid>
         </div>
