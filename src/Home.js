@@ -14,7 +14,9 @@ class Home extends Component {
                 <Col xs={12} md={9}>
                     <LeftMenu/>
                 </Col>
-                <Col xs={12} md={3}></Col>
+                <Col xs={12} md={3}>
+                    
+                </Col>
             </Row>
         </Grid>
         </div>
